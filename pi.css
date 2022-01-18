@@ -1,0 +1,106 @@
+body{
+    padding:0;
+    margin:0;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+.all{
+    margin: 2% 20%;
+    box-shadow: 0 0 3px 1px rgb(18 18 18 / 10%);
+    min-height: 800px;
+    border-radius: 6px;
+    background-color: #5a5dffe3;
+}
+
+.headerM{
+    /* background-color: white; */
+    box-shadow: 0 0 3px 1px rgb(18 18 18 / 10%);
+    height: 30%;
+    border-radius: 6px;
+    margin:2% 0;
+    /* background-color: grey; */
+}
+h1{
+    font-size: 25px;
+}
+/* ul{
+    display: flex;
+    width:100%;
+
+}
+li{
+    align-items: initial;
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 5%;
+}
+a{
+    display: block;
+    color:grey;
+    text-decoration: none;
+}
+li a:hover{
+    border-bottom: 2px solid #005CE6;
+    color: black;
+    font-weight: bold;} */
+    
+.userCard{
+    /* border:grey 2px solid; */
+    height: 150px;
+}
+.postCard{
+    float: left;
+    margin-top: 3%;
+    width: 100%;
+    min-height: 450px;
+}
+.aside{
+    margin-top: 1%;
+    float: right;
+    /* border:grey 2px solid; */
+    width: 34%;
+}
+.Userpic{
+    /* width: 900px;
+    height: 900px; */
+    width:150px;
+    margin: 40px 40px;
+}
+.week4 {
+    box-shadow: 1px 1px 5px rgb(18 18 18 / 10%);
+    margin-top: 10px;
+    height: 310px;
+    padding:0;
+    background-color: white;
+    align-items: center;
+}
+.week4 a {
+    display: flex;
+    line-height: 30px;
+    height: 40px;
+}
+.week4 a:hover {
+    background-color:#f6f6f6;
+}
+.week4 li{
+    display: list-item;
+}
+.week4 span {
+    padding-left: 10px;
+}
+a{
+    display: block;
+    color:grey;
+    text-decoration: none;
+}
+button.btn.btn-primary {
+    float: right;
+    margin-right: 100px;
+    width: 100px;
+}
+.linkName{
+    font-size: 24px;
+    margin-left:60px;
+    text-decoration: none;
+    color:black;
+    margin-bottom:40px;}

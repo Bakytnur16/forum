@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        body{
+            font-family:Verdana;
+            line-height:30px;
+            background-color:#e0ebeb;
+        }
+        fieldset{
+            margin: 5% 0 0 25% ;
+            width:570px;
+            text-align:center;
+            background-color:#94b8b8;
+        }
+        legend{
+            font-weight:bold;
+        }
+        input{
+            width: 300px;
+            margin-left: 4%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset> 
+            <legend>User Login</legend>   
+            <form action="login.php" method="post">
+                <p> User name <input id="username" required name="username" type="text" placeholder="please enter username length: 6-12 characters"></p>
+                <p>Password <input id="password" required name="password" type="password" placeholder= "please enter password length: 6-12 characters"></p>
+                <p><input type="Submit" name="Login" value="Login" style="background-color:#f0f5f5;width:350px;height:30px;"></p>
+            </form>
+            <a href="regis.php">Dont have account</a>
+    </fieldset>
+</body>
+</html>

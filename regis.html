@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User registration</title>
+    <style>
+        fieldset{
+            margin: 5% 0 0 25% ;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            font-family:Verdana;
+            line-height:30px;
+            background-color:#e0ebeb;
+        }
+        fieldset{
+            margin: 5% 0 0 25% ;
+            width:570px;
+            text-align:center;
+            background-color:#94b8b8;
+        }
+        legend{
+            font-weight:bold;
+        }
+
+        .Register{
+            background-color:#f0f5f5;
+            width:350px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+        <fieldset> 
+            <legend>User registration</legend>   
+            <form action="regis.php" method="post">
+                <p> User name <input id="username" required name="username" type="text" placeholder="please enter username length: 6-12 characters" style="width: 350px;margin-left:60px; "></p>
+                <p> Password <input id="password" required name="password" type="password" placeholder= "please enter password length: 6-12 characters" style="width: 350px;margin-left:70px;"></p>
+                <p>Confirm Password <input id="password" required name="confirm" type="password" placeholder= "please re-enter the password" style="width: 350px;"></p>
+                <p>Email Address <input id="email" required name="email" type="email" placeholder= " please enter your email address,such as:123@gmail.com" style="width: 350px;margin-left:30px;"></p>
+                <p>Phone Number <input id="phone" required name="phone" type="tel" placeholder= "please enter your mobile number, 11 Significant Digits" style="width: 350px;margin-left:25px;"></p>
+                <!-- <p style="margin-right:210px"><span style="color:red">*</span> Gender <input type="radio" name="gender" value="male" style="margin-left:90px;">Male <input type="radio" name="gender" value="female">Female</p> -->
+                <p style="margin-right:145px">I have read and accept the privacy policy. <input type="checkbox" name="save"></p>
+                <p><input type="Submit" name="Register" value="Register"></p>
+            </form>
+            <a href="login.php">alread registered</a>
+        </fieldset>
+</body>
+</html>
